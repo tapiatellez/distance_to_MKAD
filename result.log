@@ -1,0 +1,11 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.100.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-402-023
+INFO:werkzeug:127.0.0.1 - - [09/Sep/2021 14:12:59] "GET / HTTP/1.1" 200 -
+DEBUG:geopy:Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Chennai&format=json&limit=1
+DEBUG:root:distance: 5984.996525375737 km
+DEBUG:root:Chennai, Chennai District, Tamil Nadu, 600001, India distance to Moscow Ring Road: 5984.996525375737 km
+INFO:werkzeug:127.0.0.1 - - [09/Sep/2021 14:13:04] "POST /result HTTP/1.1" 200 -
